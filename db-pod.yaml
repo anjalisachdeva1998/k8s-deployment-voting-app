@@ -15,4 +15,4 @@ spec:
           value: postgres
       ports:
         - containerPort: 5432 # postgres listens to 5432 by default
-          name: postgres
+          name: postgres #
