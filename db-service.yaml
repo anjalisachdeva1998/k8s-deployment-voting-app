@@ -1,18 +1,14 @@
 apiVersion: v1
-kind: Pod
+kind: Service
 metadata:
-  name: db
+  name: db 
   labels:
     app: db
 spec:
-  containers:
-    - name: postgres
-      image: postgres:15-alpine
-      env:
-        - name: POSTGRES_USER
-          value: postgres
-        - name: POSTGRES_PASSWORD
-          value: postgres
-      ports:
-        - containerPort: 5432 # postgres listens to 5432 by default
-          name: postgres
+  type: ClusterIP
+  ports: 
+    - name: db-service
+      port: 5432
+      targetPort: 5432
+  selector:
+    app: db

@@ -1,18 +1,15 @@
 apiVersion: v1
-kind: Pod
+kind: Service
 metadata:
-  name: db
+  name: vote 
   labels:
-    app: db
+    app: vote
 spec:
-  containers:
-    - name: postgres
-      image: postgres:15-alpine
-      env:
-        - name: POSTGRES_USER
-          value: postgres
-        - name: POSTGRES_PASSWORD
-          value: postgres
-      ports:
-        - containerPort: 5432 # postgres listens to 5432 by default
-          name: postgres
+  type: NodePort
+  ports: 
+    - name: vote-service
+      port: 8080 #request coming to this serviceip:8080 will be forwarded to pod:80
+      targetPort: 80
+      nodePort: 31000
+  selector:
+    app: vote
