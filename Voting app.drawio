@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="SwgDdJKiR84Up3xy4d1V">
+    <mxGraphModel dx="818" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Redis" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Db" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-10" edge="1" parent="1" source="FHVGNp6LoNHgbA1Q_Ifk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FHVGNp6LoNHgbA1Q_Ifk-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Vote App" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-11" edge="1" parent="1" source="FHVGNp6LoNHgbA1Q_Ifk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FHVGNp6LoNHgbA1Q_Ifk-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Result App" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Worker" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-8" edge="1" parent="1" source="FHVGNp6LoNHgbA1Q_Ifk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FHVGNp6LoNHgbA1Q_Ifk-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-6" parent="1" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="30" x="320" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-9" edge="1" parent="1" source="FHVGNp6LoNHgbA1Q_Ifk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="FHVGNp6LoNHgbA1Q_Ifk-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="40" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-12" edge="1" parent="1" source="FHVGNp6LoNHgbA1Q_Ifk-5" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="310" as="sourcePoint" />
+            <mxPoint x="220" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-13" edge="1" parent="1" source="FHVGNp6LoNHgbA1Q_Ifk-5" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-14" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="30" x="500" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-15" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="30" width="35.71" x="150" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-17" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#115193;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="40" width="34.5" x="322.75" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-19" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Logos-2642/bxl-javascript-1313.svg" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="500" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FHVGNp6LoNHgbA1Q_Ifk-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;Python&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
