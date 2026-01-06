@@ -44,6 +44,9 @@ The application consists of multiple independent components that communicate wit
    * Frontend application
    * Reads results from PostgreSQL and displays them
 
+![Application Architecture](https://github.com/anjalisachdeva1998/k8s-deployment-voting-app/blob/main/Voting%20app.drawio.png)
+
+
 ---
 
 ## ☸️ Kubernetes Resources Created
